@@ -71,7 +71,6 @@ data_segment_raw = import(file.path(dir_data, "data_for_segment.xlsx")) %>%
     
       
 
-  #export
 
   ggsave(file.path(dir_charts,"segment.png"),plot_segment )
 
